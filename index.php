@@ -23,57 +23,101 @@
     </article>
     <nav id="main_nav">
         <ul id="ul_main_nav">
-            <li><a>Главная</a></li>
-            <li><a>Фильмы</a></li>
-            <li><a>Сериалы</a></li>
-            <li><a>Рейтинг фильмов</a></li>
-            <li><a>Контакты</a></li>
+            <li><a href="index.php">Главная</a></li>
+            <li><a href="films.php">Фильмы</a></li>
+            <li><a href="serials.php">Сериалы</a></li>
+            <li><a href="rating.php">Рейтинг фильмов</a></li>
+            <li><a href="contact.php">Контакты</a></li>
         </ul>
     </nav>
 </header>
 
+
 <main>
+
     <aside>
-        <article id="search">
+        <article id="search" class="article_for_green_a">
             <h3>Поиск</h3>
             <form method="get">
                 <label>
-                    <input type="search" value="Ваш запрос">
+                    <input type="search">
                     <button>Найти</button>
                 </label>
             </form>
         </article>
-        <article id="login">
+        <article id="login" class="article_for_green_a">
             <h3>Вход</h3>
+            <form method="post">
+                <label>
+                    <input type="text">
+                    <input type="password">
+                    <button>Войти</button>
+                </label>
+            </form>
+            <a href="">Забыли пароль?</a>|<a href="">Регестрация</a>
         </article>
-        <article id="news">
+        <article id="news" class="article_for_green_a">
             <h3>Новости</h3>
+            <p>31.02.2018</p>
+            <p>Мы запустили расширенный поиск</p>
+            <a href="">Читать</a>
         </article>
-        <article id="rating">
+        <article id="rating" class="article_for_green_a">
             <h3>Рейтинг фильмов</h3>
+            <p><a href="" class="a_rating">Интерстеллер</a><b class="b_rating">---8.1</b></p>
+            <p><a href="" class="a_rating">Матрица</a><b class="b_rating">---8.0</b></p>
+            <p><a href="" class="a_rating">Безумный Макс</a><b class="b_rating">---7.5</b></p>
+            <p><a href="" class="a_rating">Облачный атлас</a><b class="b_rating">---7.4</b></p>
         </article>
     </aside>
-    <article id="new_film">
+    <section>
+    <article id="new_film" class="article_for_green_a">
         <h2>Новые фильмы</h2>
         <section>
-            <img src="src/matrix.png" alt="Film photo">
-            <img src="src/max.png" alt="Film photo">
-            <img src="src/inter.png" alt="Film photo">
-            <img src="src/cloud.png" alt="Film photo">
+            <a href=""><img src="src/matrix.png" alt="Film photo" ></a>
+            <a href=""> <img src="src/max.png" alt="Film photo"></a>
+            <a href=""> <img src="src/inter.png" alt="Film photo"></a>
+            <a href=""> <img src="src/cloud.png" alt="Film photo"></a>
         </section>
     </article>
 
-    <article id="new_serials">
+    <article id="new_serials" class="article_for_green_a">
         <h2>Новые сериалы</h2>
         <section>
-            <img src="src/dead.png" alt="Film photo">
-            <img src="src/silicon.png" alt="Film photo">
-            <img src="src/breakingbad.png" alt="Film photo">
-            <img src="src/xfiles.png" alt="Film photo">
+            <a href=""><img src="src/dead.png" alt="Film photo"></a>
+            <a href=""><img src="src/silicon.png" alt="Film photo"></a>
+            <a href=""><img src="src/breakingbad.png" alt="Film photo"></a>
+            <a href=""><img src="src/xfiles.png" alt="Film photo"></a>
         </section>
     </article>
+    <article id="first_main_article" class="article_for_green_a">
+        <h2>Как снимали Интерстеллар</h2>
+        <p>45 лет исполнилось КРистоферу Нолану - одному из самых успешных режиссёров нашего времени,
+        чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями. Фильмом изначально занималась студия Paramount.
+        Когда Кристофер Нолан занял место режиссёёра, студия Warner Bros, которая выпускала его последние фильмы, добилась участия в проекте</p>
+        <a href="">Читать</a>
+    </article>
 
+    <article id="second_main_article" class="article_for_green_a">
+        <h2>Актёр Том Хенкс поделился впечатлениями о фестивале</h2>
+        <p>16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии. Леонардо ДиКарио,
+        Брэд Питт, Анджелина Джоли, Кейт Бланшет, Хеллен Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и другие гости и победители примии - в нашем
+        репортаже</p>
+        <a href="">Читать</a>
+    </article>
+    </section>
 </main>
-
+<footer>
+    <nav id="footer_nav">
+        <ul id="ul_footer_nav">
+            <li><a href="index.php">Главная</a></li>
+            <li><a href="films.php">Фильмы</a></li>
+            <li><a href="serials.php">Сериалы</a></li>
+            <li><a href="rating.php">Рейтинг фильмов</a></li>
+            <li><a href="contact.php">Контакты</a></li>
+        </ul>
+    </nav>
+    <a>baseoffilms.ee</a>
+</footer>
 </body>
 

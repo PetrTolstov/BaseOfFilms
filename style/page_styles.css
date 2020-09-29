@@ -33,13 +33,14 @@ header{
 }
 
 article#title_h{
-    padding-bottom: 2vmin;
     padding-left: 22em;
 
 }
 
 #down_main_h{
     color: gray;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #main_h{
@@ -67,33 +68,64 @@ ul#ul_main_nav li a:hover{
 }
 
 main{
-    position: relative;
-    margin: 2em 20em;
-    height: 2000px;
+    margin: 2em 15em;
+
 }
 
 aside{
-    position: fixed;
-    right: 10em;
     width: 12em;
     height: 300px;
+    float: right;
 }
 
 aside article{
     background-color: lightgray;
     border-radius: 5px;
-    color: Blue;
+
     margin-top: 0.5em;
     padding: 5px;
 }
 
-aside article form label *{
+aside article h3{
+    color: Blue;
+}
+
+aside article form label input{
     padding: 3px;
+    margin: 3px;
+    width: 10em;
+    height: 1.5em;
+}
+
+aside article form label button{
+    padding: 3px;
+    margin: 3px;
+    border: 0;
 }
 
 aside article h3{
     padding: 5px;
 }
+
+
+
+.article_for_green_a a{
+    color: forestgreen;
+}
+
+.article_for_green_a a:hover{
+    color: darkgreen;
+}
+
+
+
+.a_rating{
+
+}
+.b_rating{
+
+}
+
 
 main article section{
     display: inline;
@@ -113,4 +145,38 @@ main article{
 main article h2{
     padding-top: 1em;
     padding-bottom: 0.5em;
+}
+
+#first_main_article h2{
+    color: green;
+    word-wrap: break-word;
+}
+
+#second_main_article h2{
+    color: green;
+    word-wrap: break-word;
+}
+
+
+ul#ul_footer_nav li {
+    display: inline;
+    padding-left: 2em;
+
+}
+
+ul#ul_footer_nav li a:hover{
+    color: darkgoldenrod;
+}
+
+#ul_footer_nav {
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 2em;
+}
+
+footer{
+    background-color: darkslateblue;
+    margin-bottom: 0;
+    text-align: center;
+
 }
