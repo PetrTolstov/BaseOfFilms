@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Oxygen";  /* задаем произвольное имя для шрифта, которое будет использоваться в свойстве font-family при указании стилей для конкретных элементов */
+    src: url("../Fonts/Oxygen-Regular.ttf") format('truetype');  /* задаем путь к шрифту (url) и тип шрифта (format) */
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oxygen";  /* задаем произвольное имя для шрифта, которое будет использоваться в свойстве font-family при указании стилей для конкретных элементов */
+    src: url("../Fonts/Oxygen-Bold.ttf") format('truetype');  /* задаем путь к шрифту (url) и тип шрифта (format) */
+    font-style: normal;
+    font-weight: Bold;
+}
+
+@font-face {
+    font-family: "Oxygen";  /* задаем произвольное имя для шрифта, которое будет использоваться в свойстве font-family при указании стилей для конкретных элементов */
+    src: url("../Fonts/Oxygen-Light.ttf") format('truetype');  /* задаем путь к шрифту (url) и тип шрифта (format) */
+    font-style: normal;
+    font-weight: initial;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Oxygen", serif;
+    font-weight: normal;
+}
+
+header{
+    background-color: darkslateblue;
+    padding: 2vmin;
+    color: lightgray;
+}
+
+article#title_h{
+    padding-bottom: 2vmin;
+    padding-left: 22em;
+
+}
+
+#down_main_h{
+    color: gray;
+}
+
+#main_h{
+    font-size: 56px;
+}
+
+#main_nav{
+
+}
+
+ul#ul_main_nav li {
+    display: inline;
+    padding-left: 2em;
+
+}
+
+ul#ul_main_nav li a:hover{
+    color: darkgoldenrod;
+}
+
+#ul_main_nav {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 15em;
+}
+
+main{
+    position: relative;
+    margin: 2em 20em;
+    height: 2000px;
+}
+
+aside{
+    position: fixed;
+    right: 10em;
+    width: 12em;
+    height: 300px;
+}
+
+aside article{
+    background-color: lightgray;
+    border-radius: 5px;
+    color: Blue;
+    margin-top: 0.5em;
+    padding: 5px;
+}
+
+aside article form label *{
+    padding: 3px;
+}
+
+aside article h3{
+    padding: 5px;
+}
+
+main article section{
+    display: inline;
+}
+main article section img {
+    display: inline-block;
+    height: 200px;
+    border: grey 5px solid;
+    margin-right:  0.5em;
+    border-radius: 5px;
+}
+
+main article{
+
+}
+
+main article h2{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
