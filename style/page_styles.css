@@ -32,36 +32,41 @@ header{
     color: lightgray;
 }
 
-article#title_h{
+article.title_h{
     padding-left: 22em;
 
 }
 
-#down_main_h{
+.down_main_h{
     color: gray;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-#main_h{
+.main_h{
     font-size: 56px;
 }
 
-#main_nav{
+.main_nav{
 
 }
 
-ul#ul_main_nav li {
+ul.ul_main_nav li {
     display: inline;
     padding-left: 2em;
 
 }
 
-ul#ul_main_nav li a:hover{
+ul.ul_main_nav li a{
+    color: snow;
+    text-decoration: none;
+}
+
+ul.ul_main_nav li a:hover{
     color: darkgoldenrod;
 }
 
-#ul_main_nav {
+.ul_main_nav {
     text-align: center;
     list-style-type: none;
     padding-left: 15em;
@@ -158,17 +163,23 @@ main article h2{
 }
 
 
-ul#ul_footer_nav li {
+ul.ul_footer_nav li {
     display: inline;
     padding-left: 2em;
 
 }
 
-ul#ul_footer_nav li a:hover{
+
+ul.ul_footer_nav li a{
+    color: snow;
+    text-decoration: none;
+}
+
+ul.ul_footer_nav li a:hover{
     color: darkgoldenrod;
 }
 
-#ul_footer_nav {
+.ul_footer_nav {
     text-align: center;
     list-style-type: none;
     padding-bottom: 2em;

@@ -17,12 +17,12 @@
 </head>
 <body>
 <header>
-    <article id="title_h">
-        <h1 id="main_h">КиноБаза</h1>
-        <p id="down_main_h">Кино - наша страсть!</p>
+    <article class="title_h">
+        <h1 class="main_h">КиноБаза</h1>
+        <p class="down_main_h">Кино - наша страсть!</p>
     </article>
-    <nav id="main_nav">
-        <ul id="ul_main_nav">
+    <nav class="main_nav">
+        <ul class="ul_main_nav">
             <li><a href="index.php">Главная</a></li>
             <li><a href="films.php">Фильмы</a></li>
             <li><a href="serials.php">Сериалы</a></li>
@@ -33,10 +33,9 @@
 </header>
 
 
-
-<footer>
-    <nav id="footer_nav">
-        <ul id="ul_footer_nav">
+<footer class="footer">
+    <nav class="footer_nav">
+        <ul class="ul_footer_nav">
             <li><a href="index.php">Главная</a></li>
             <li><a href="films.php">Фильмы</a></li>
             <li><a href="serials.php">Сериалы</a></li>
