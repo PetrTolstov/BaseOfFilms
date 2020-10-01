@@ -64,20 +64,20 @@
         </article>
         <article id="rating" class="article_for_green_a">
             <h3>Рейтинг фильмов</h3>
-            <p><a href="" class="a_rating">Интерстеллер</a><b class="b_rating">---8.1</b></p>
-            <p><a href="" class="a_rating">Матрица</a><b class="b_rating">---8.0</b></p>
-            <p><a href="" class="a_rating">Безумный Макс</a><b class="b_rating">---7.5</b></p>
-            <p><a href="" class="a_rating">Облачный атлас</a><b class="b_rating">---7.4</b></p>
+            <p><b class="b_rating">8.1 --- </b><a href="" class="a_rating">Интерстеллер</a></p>
+            <p><b class="b_rating">8.0 --- </b><a href="" class="a_rating">Матрица</a></p>
+            <p><b class="b_rating">7.5 --- </b><a href="" class="a_rating">Безумный Макс</a></p>
+            <p><b class="b_rating">7.4 --- </b><a href="" class="a_rating">Облачный атлас</a></p>
         </article>
     </aside>
-    <section>
+    <section class="sh">
     <article id="new_film" class="article_for_green_a">
         <h2>Новые фильмы</h2>
         <section>
-            <a href=""><img src="src/matrix.png" alt="Film photo" ></a>
-            <a href=""> <img src="src/max.png" alt="Film photo"></a>
-            <a href=""> <img src="src/inter.png" alt="Film photo"></a>
-            <a href=""> <img src="src/cloud.png" alt="Film photo"></a>
+            <a href="film.php?film=0"><img src="src/matrix.png" alt="Film photo" ></a>
+            <a href="film.php?film=1"> <img src="src/max.png" alt="Film photo"></a>
+            <a href="film.php?film=2"> <img src="src/inter.png" alt="Film photo"></a>
+            <a href="film.php?film=3"> <img src="src/cloud.png" alt="Film photo"></a>
         </section>
     </article>
 

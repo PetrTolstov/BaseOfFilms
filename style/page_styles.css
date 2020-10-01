@@ -113,9 +113,13 @@ aside article h3{
 }
 
 
+.sh{
+    width: 670px;
+}
 
 .article_for_green_a a{
     color: forestgreen;
+
 }
 
 .article_for_green_a a:hover{
@@ -190,4 +194,22 @@ footer{
     margin-bottom: 0;
     text-align: center;
 
+}
+
+
+img.photo_to_article{
+    float: left;
+    height: 200px;
+    border: grey 5px solid;
+    margin-right:  0.5em;
+    border-radius: 5px;
+
+}
+
+article.article_to_film{
+    margin-top: 20px;
+}
+
+iframe{
+    margin-bottom: 20px;
 }
